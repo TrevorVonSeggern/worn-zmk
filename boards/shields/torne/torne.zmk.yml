@@ -2,7 +2,6 @@ file_format: "1"
 id: torne
 name: torne
 type: shield
-url: NA
 requires: [nice_nano_v2]
 exposes: []
 features:
