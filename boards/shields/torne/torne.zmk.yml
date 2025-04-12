@@ -1,6 +1,6 @@
 file_format: "1"
 id: torne
-name: torne
+name: Torne
 type: shield
 requires: [nice_nano_v2]
 exposes: []
