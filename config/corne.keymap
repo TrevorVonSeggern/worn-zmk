@@ -9,6 +9,10 @@
     transform = <&default_transform>;
 };
 
+&default_transform {
+    col-offset = <6>;
+};
+
 / {
     chosen {
         zephyr;
