@@ -11,6 +11,7 @@ manifest:
       import: app/west.yml
     - name: zmk-keyboard-torne
       remote: TrevorVonSeggern
+      url: https://github.com/TrevorVonSeggern/zmk-keyboard-torne
       revision: main
       import: west.yml
   self:
