@@ -2,15 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: TrevorVonSeggern
-      url-base: https://github.com/TrevorVonSeggern
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-keyboard-torne
-      remote: TrevorVonSeggern
       url: https://github.com/TrevorVonSeggern/zmk-keyboard-torne
       revision: main
       import: west.yml
