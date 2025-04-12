@@ -7,7 +7,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-keyboard-torne
+    - name: zmk-keyboards-torne
       url: https://github.com/TrevorVonSeggern/zmk-keyboard-torne
       revision: main
       import: west.yml
