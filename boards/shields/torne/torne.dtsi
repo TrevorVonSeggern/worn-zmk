@@ -12,6 +12,17 @@
         zmk,physical-layout = &foostan_corne_6col_layout;
     };
 
+    behaviors {
+        repeat_key: repeat_key {
+            compatible = "zmk,behavior-repeat-key";
+            label = "Repeat Key";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            repeat-delay-ms = <300>;
+            repeat-interval-ms = <50>;
+        };
+    };
+
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <12>;
