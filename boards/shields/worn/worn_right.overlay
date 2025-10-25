@@ -1,4 +1,4 @@
-#include "torne.dtsi"
+#include "worn.dtsi"
 
 &default_transform {
     col-offset = <6>;

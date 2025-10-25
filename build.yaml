@@ -19,9 +19,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
-    shield: torne_left
-  - board: nice_nano_v2
-    shield: torne_right
+  - board: pro_micro
+    shield: worn_left
+  - board: pro_micro
+    shield: worn_right
   #- board: nice_nano_v2
     #shield: settings_reset
